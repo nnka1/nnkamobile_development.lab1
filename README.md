@@ -7,19 +7,21 @@
 ## Работа приложения
 
 ### 1.  MainActivity
-* Отображает кнопку btn1.
-* При нажатии на кнопку: 
-1. Создается Intent для запуска MainActivity2.
-2. В Intent передается параметр "familyName" со значением "Усова". 
-3. Вызывается метод startActivity() для запуска MainActivity2.
+1.1 Отображает кнопку btn1.
+
+1.2. При нажатии на кнопку:
+* Создается Intent для запуска MainActivity2.
+* В Intent передается параметр "familyName" со значением "Усова". 
+* Вызывается метод startActivity() для запуска MainActivity2.
    ![image](https://github.com/user-attachments/assets/a81ef191-68ec-488a-953c-c8c54cdb55bf)
    
 
 
 ### 2.  MainActivity2
 
-* Получает переданный параметр "familyName" из Intent.
-*  Отображает значение параметра в текстовом поле.
+2.1. Получает переданный параметр "familyName" из Intent.
+
+2.2 Отображает значение параметра в текстовом поле.
 
   ![image](https://github.com/user-attachments/assets/19a9deef-a521-442e-af06-8632e28cf597)
   
