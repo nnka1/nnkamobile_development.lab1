@@ -42,7 +42,6 @@
 ## Исходный код:
 ### MainActivity
 ```jsva
-
 package com.example.myapplication
 
 import android.os.Bundle
@@ -71,5 +70,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
-
-
+```
