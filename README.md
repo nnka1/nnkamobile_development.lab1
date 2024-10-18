@@ -20,4 +20,4 @@
 
 * Получает переданный параметр "familyName" из Intent.
 * Отображает значение параметра в текстовом поле.
-* ![image](https://github.com/user-attachments/assets/19a9deef-a521-442e-af06-8632e28cf597)
+  ![image](https://github.com/user-attachments/assets/19a9deef-a521-442e-af06-8632e28cf597)
