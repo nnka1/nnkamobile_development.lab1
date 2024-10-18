@@ -13,6 +13,7 @@
 2. В Intent передается параметр "familyName" со значением "Усова". 
 3. Вызывается метод startActivity() для запуска MainActivity2.
    ![image](https://github.com/user-attachments/assets/a81ef191-68ec-488a-953c-c8c54cdb55bf)
+   
 
 
 ### 2.  MainActivity2
