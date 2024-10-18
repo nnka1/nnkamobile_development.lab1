@@ -38,3 +38,38 @@
 * В Android Studio, нажмите кнопку "Run" (зеленый треугольник) на панели инструментов.
 * Выберите эмулятор или подключенное Android-устройство, на котором вы хотите запустить приложение.
 * Дождитесь завершения сборки и запуска приложения.
+
+## Исходный код:
+### MainActivity
+```jsva
+
+package com.example.myapplication
+
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import android.widget.Button
+import android.content.Intent
+
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        enableEdgeToEdge()
+
+        val button = findViewById<Button>(R.id.btn1)
+
+        button.setOnClickListener {
+            val intent = Intent(this, MainActivity2::class.java)
+            intent.putExtra("familyName", "Усова")
+
+            startActivity(intent)
+        }
+
+    }
+}
+
+
